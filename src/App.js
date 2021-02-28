@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react'
 import  Button  from  '@material-ui/core/Button'
-import { ListaView } from './components/ListaView.jsx'
+
 export default class App extends Component{
   render(){
     return (
@@ -22,7 +22,7 @@ export default class App extends Component{
         </a>
       </header>
       <Button variant="contained" color="primary">Hello Word</Button>
-      <ListaView></ListaView>
+   
     </div>
     )
   }
